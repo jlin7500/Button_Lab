@@ -10,15 +10,17 @@
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
+      <ColumnConstraints />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Pane prefHeight="200.0" prefWidth="200.0">
+      <Pane prefHeight="260.0" prefWidth="238.0" GridPane.columnIndex="1">
          <children>
-            <Button fx:id="button" layoutX="74.0" layoutY="100.0" mnemonicParsing="false" onAction="#add" prefHeight="100.0" prefWidth="100.0" style="-fx-background-radius: 50;" text="Button" />
-            <Label fx:id="display" layoutX="86.0" layoutY="48.0" text="Label" />
+            <Button fx:id="button" layoutX="69.0" layoutY="80.0" mnemonicParsing="false" onAction="#add" prefHeight="100.0" prefWidth="100.0" style="-fx-background-radius: 50;" text="Button" />
+            <Label fx:id="display" layoutX="105.0" layoutY="41.0" text="Label" />
+            <Label fx:id="display1" layoutX="105.0" layoutY="14.0" text="Label" />
          </children>
       </Pane>
    </children>
